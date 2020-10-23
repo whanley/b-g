@@ -14,3 +14,7 @@ I have removed this Note concerning Sweden-Norway:
 
 ### tm-personnel-2
 - career expressed as standardized series of changes, using change/post/date and number in sequence
+
+### tm-personnel-3
+- removed duplicate entries, amalgamating information
+- removed notes-raw field
