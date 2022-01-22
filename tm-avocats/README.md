@@ -1,7 +1,7 @@
 # Tribunaux mixtes avocats
 
 ## Source
-Ordre des avocats aux juridictions mixtes d’égypte, [Tableau de l’Ordre: 59me & 60me Année Judiciares 1933-1935](https://digitalcollections.aucegypt.edu/digital/collection/p15795coll11/id/3173/) (Alexandrie: Typo. Fratelli Ventura, 1934), which is digitized by the American University in Cairo.
+Ordre des avocats aux juridictions mixtes d’égypte, _[Tableau de l’Ordre: 59me & 60me Année Judiciares 1933-1935](https://digitalcollections.aucegypt.edu/digital/collection/p15795coll11/id/3173/)_ (Alexandrie: Typo. Fratelli Ventura, 1934), which is digitized by the American University in Cairo.
 
 ## Procedure
 The source lists every lawyer twice: first in numbered sequence (which I take to be a list of seniority) according to status (Avocats près la Cour, Avocats aux Tribunaux, Avocats Stagiaires), then in alphabetical order. The first list gives the date when the lawyer joined the order. The second list gives the lawyer's address.
