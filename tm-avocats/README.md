@@ -39,7 +39,7 @@ I did this work in January 2022.
 24. **telephone**: telephone number listed in second list
 
 ## To do
-- [x] I'd like to add a column showing the stagiaires each lawyer took on. 
-- [] I'd also like to indicate relationships (i.e., those who work out of the same office).
-- [x] I need to work on names. I've split surnames and given names, but there are problems of name sequence. This is especially true for Arabic names and for middle initials. 
-- [] I think there are some unescaped characters, for some reason. I haven't been able to convert the text successfully. I see this in OpenRefine, when trying to combine faceted records. Probably not a big deal, but I wish I had it sorted out.
+- [x] I'd like to add a column showing the stagiaires each lawyer took on. (2022-01-23)
+- [ ] I'd also like to indicate relationships (i.e., those who work out of the same office).
+- [x] I need to work on names. I've split surnames and given names, but there are problems of name sequence. This is especially true for Arabic names and for middle initials. (2022-01-23)
+- [ ] I think there are some unescaped characters, for some reason. I haven't been able to convert the text successfully. I see this in OpenRefine, when trying to combine faceted records. Probably not a big deal, but I wish I had it sorted out.
