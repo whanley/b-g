@@ -15,28 +15,31 @@ Stagiaires are (in most cases) listed not with a street address but with the nam
 I did this work in January 2022.
 
 ## Data dictionary
-1. **surname**: what I take to be the surname, i.e. the first name given in each list. There are problems, though.
-2. **names**: mostly given names; the rest of the names listed
-3. **surname-first-list**: 28 instances of variance between first and second list orthography
-4. **names-first-list**: 31 instances of variance between first and second list orthography
-5. **description**: titles given in addition to name: (Mlle) and (Mme), as well as offices within the Order
-6. **residence**: Alexandrie, Caire, Mansourah, Port-Said
-7. **(changed-residence-from)** 17 instances of variance between first and second lists
-8. **date**: presumably of membership in the Order
-9. **address-concat**: I produced this from a concatenation of the next two fields, which I cleaned
-10. **street-number**: split from address
-11. **street**: split from address
-12. **(street-reconcile)**: partial standardization of street names, mostly by substituting "Rue" for "Chareh" and the like. I'm using this for disambiguation.
-13. **c/o**: name of mentors of stagiaires. Mentors in partnership listed as "Mes."
-14. **(patron-no)**: mentor's number in this Order list. When it's not clear, I listed more than one possibility.
-15. **(parton-partner-no)**: second mentor's number, in cases of partnership. When it's not clear, I listed more than one possibility.
-16. **Status**: from second list
-17. **Type-a**: section of first list
-18. **(type-change)**: 15 instances of variance between first and second lists
-19. **No**: number in this document's ordered sequence
-20. **telephone**: telephone number listed in second list
+1. **name**: full series of names, in sequence in which it appears in original document
+2. **(surname)**: what I take to be the surname, usually the first name given
+3. **(given-name)**: what I take to be the given name, usually the second name given
+4. **(other-names)**: the remnant not assigned to previous two columns
+6. **name-first-list**: 57 instances of variance between first and second list orthography
+7.  **description**: titles given in addition to name: (Mlle) and (Mme), as well as offices within the Order
+9. **residence**: Alexandrie, Caire, Mansourah, Port-Said
+10. **(changed-residence-from)** 17 instances of variance between first and second lists
+11. **date**: presumably of membership in the Order
+12. **address-concat**: I produced this from a concatenation of the next two fields, which I cleaned
+13. **street-number**: split from address
+14. **street**: split from address
+15. **(street-reconcile)**: partial standardization of street names, mostly by substituting "Rue" for "Chareh" and the like. I'm using this for disambiguation.
+16. **c/o**: name of mentors of stagiaires. Mentors in partnership listed as "Mes."
+17. **(patron-no)**: mentor's number in this Order list. When it's not clear, I listed more than one possibility.
+18. **(parton-partner-no)**: second mentor's number, in cases of partnership. When it's not clear, I listed more than one possibility.
+19. **(stagiaire-no)**: number(s) of stagiaire(s). I produced this column from the two preceding columns, and have noted ambiguous cases.
+20. **Status**: from second list
+21. **Type-a**: section of first list
+22. **(type-change)**: 15 instances of variance between first and second lists
+23. **No**: number in this document's ordered sequence
+24. **telephone**: telephone number listed in second list
 
 ## To do
-- I'd like to add a column showing the stagiaires each lawyer took on. I'd also like to indicate relationships (i.e., those who work out of the same office).
-- I need to work on names. I've split surnames and given names, but there are problems of name sequence. This is especially true for Arabic names and for middle initials. 
-- I think there are some unescaped characters, for some reason. I haven't been able to convert the text successfully. I see this in OpenRefine, when trying to combine faceted records. Probably not a big deal, but I wish I had it sorted out.
+[x] I'd like to add a column showing the stagiaires each lawyer took on. 
+[ ] I'd also like to indicate relationships (i.e., those who work out of the same office).
+[x] I need to work on names. I've split surnames and given names, but there are problems of name sequence. This is especially true for Arabic names and for middle initials. 
+[ ] I think there are some unescaped characters, for some reason. I haven't been able to convert the text successfully. I see this in OpenRefine, when trying to combine faceted records. Probably not a big deal, but I wish I had it sorted out.
